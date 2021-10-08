@@ -4,8 +4,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflows_dispatch:
-
+  workflow_dispatch:
+  
 jobs:
   build_test:
     runs-on: ubuntu-latest
